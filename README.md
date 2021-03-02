@@ -14,3 +14,9 @@ docker run -ti --rm zombiedemo /bin/bash
 root@d2d87f4aafbc:/zombie# ./zombie & ps -eaf --forest
 ```
 
+Runing the container with ignore
+
+```
+docker run -ti --rm zombiedemo /zombie/ignore
+root@d2d87f4aafbc:/zombie# ./zombie & ps -eaf --forest
+```
