@@ -5,5 +5,7 @@ RUN mkdir zombie
 
 WORKDIR /zombie
 COPY zombie.c .
+COPY ignore.c .
 
 RUN gcc zombie.c -o zombie
+RUN gcc ignore.c -o ignore
